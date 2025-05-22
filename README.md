@@ -12,8 +12,7 @@ Please use conda to create the experiment environment and install additional pac
 # Create conda environment
 conda env create -f environment.yml
 conda activate cgc-vtd
-# install pytorch
-conda install pytorch==2.4.0 torchvision==0.19.0 torchaudio==2.4.0  pytorch-cuda=11.8 -c pytorch -c nvidia
+
 
 
 # install pyg
