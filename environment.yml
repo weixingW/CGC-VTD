@@ -1,0 +1,19 @@
+name: cgc-vtd
+channels:
+  - https://repo.anaconda.com/pkgs/main
+  - https://repo.anaconda.com/pkgs/r
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - scikit-learn
+  - pyvis
+  - matplotlib
+  - scikit-image
+  - pycocotools
+  - attrdict
+  - conda-forge::einops
+  - timm
+  - pip
+
