@@ -1,0 +1,21 @@
+name: cgc-vtd
+channels:
+  - conda-forge
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.10
+  - pytorch=2.4.0
+  - torchvision=0.19.0
+  - torchaudio=2.4.0
+  - pytorch-cude=11.8
+  - scikit-learn
+  - pyvis
+  - matplotlib
+  - scikit-image
+  - pycocotools
+  - attrdict
+  - einops
+  - timm
+  - pip
+
