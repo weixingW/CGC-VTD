@@ -59,7 +59,7 @@ For perform evaluation, you need to download the image data, query files, and an
 
 To run CGC+VTD:
 ```bash
-src/amber_generate.py  --image_dir path/to/AMBER/image/ --output_file output/path/amber.json --gen_type gnn --cluster_results_path clustering/dir/path/clustering_results.pkl --model_cache_dir ~/.huggingface --model_type janus --model_id deepseek-ai/Janus-Pro-7B --find_non_input_indices --weight editing_weight --layer editing_layer --num_clusters number_of_dominant_clusters
+src/amber_generate.py  --image_dir path/to/AMBER/image/ --query_file path/to/AMBER/query.json --output_file output/path/amber.json --gen_type gnn --cluster_results_path clustering/dir/path/clustering_results.pkl --model_cache_dir ~/.huggingface --model_type janus --model_id deepseek-ai/Janus-Pro-7B --find_non_input_indices --weight editing_weight --layer editing_layer --num_clusters number_of_dominant_clusters
 ```
 
 available generation method are: `--gen_type [vcd, sid, confidence, opera]`, correspond to [[VCD](https://github.com/DAMO-NLP-SG/VCD),[SID](https://github.com/huofushuo/SID),[PROJECTAWAY](https://github.com/nickjiang2378/vl-interp/tree/main),[OPERA](https://github.com/shikiw/OPERA)]

@@ -286,7 +286,7 @@ def parse_arguments() -> argparse.Namespace:
         "--query_file",
         type=str,
         required=False,
-        default="data/query/query_all.json",
+        default="eval/AMBER_DATA/query/query_all.json",
         help="Path to query_all.json containing image IDs and queries",
     )
     parser.add_argument("--image_dir", type=str, default=None, help="Image directory")
